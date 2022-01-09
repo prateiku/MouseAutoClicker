@@ -147,6 +147,7 @@ int main(){
     std::cout<<"| NUM3--------------Display recorded clicks |"<<std::endl;
     std::cout<<"| NUM4--------------Start simulating clicks |"<<std::endl;
     std::cout<<"| NUM5----------------Exit the auto clicker |"<<std::endl;
+    std::cout<<"| NUM6----------------Dispay hotkey menu    |"<<std::endl;
     std::cout<<"============================================="<<std::endl;
     do{
         if(keypressed(VK_NUMPAD6)){
@@ -156,6 +157,7 @@ int main(){
             std::cout<<"| NUM3--------------Display recorded clicks |"<<std::endl;
             std::cout<<"| NUM4--------------Start simulating clicks |"<<std::endl;
             std::cout<<"| NUM5----------------Exit the auto clicker |"<<std::endl;
+	    std::cout<<"| NUM6----------------Dispay hotkey menu    |"<<std::endl;
             std::cout<<"============================================="<<std::endl;
         }
         if(keypressed(VK_NUMPAD1)){
